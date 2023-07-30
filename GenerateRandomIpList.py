@@ -23,7 +23,7 @@ print(list_ip)
 # pattern to extract only ip and ignor ',' in the above list
 ip_patter = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
 
-# append data to a file called wolf in the dir
+# append data to a file called wolf in the same dir
 for ip in list_ip:
     open_file = open('wolf.txt', 'a')
     open_file.write(ip_patter.search(ip)[0] + '\n')
