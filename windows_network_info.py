@@ -53,14 +53,10 @@ def get_network_info(export_path: Path, network_file: Path):
         print_err(f'Error occurred during file operation: {file_err}')
         logging.exception('Error occurred during file operation: %s\n', file_err)
 def print_err(msg: str):
-    """
-    Displays the passed in error message via stderr.
-
-    :param msg:  The error message to be displayed.
-    :return:  Nothing
-    """
+   # Displays the passed in error message via stderr.
     print(f'\n* [ERROR] {msg} *\n', file=sys.stderr)
 def main():
+#Create a temp folder in c 
     working_path = Path('C:\\Temp\\')
     network_info = working_path / 'wolf_net.txt'
     get_network_info(working_path,network_info)

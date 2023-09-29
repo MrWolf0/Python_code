@@ -11,6 +11,7 @@ as tool of my penetration test
 | `port_scanner.py`               | 
 | `loginBruteForce.py`            | 
 | `windows_network_info.py`       | 
+| `windows_sys_info.py`           | 
 
 ## scripts :page_with_curl:
 
@@ -34,3 +35,5 @@ as tool of my penetration test
   * [windows_network_info.py](./windows_network_info.py):  `Get the saved Wi-Fi network information` and if the SSID not `protected` it will show the password in `clear` txet  and `runs an array of commands to query network information`, such as `network profiles`,
     `ip configuration`, `arp table`, `routing table`, `tcp/udp ports`, and attempt to query the `ipify.org API` for public IP address. All the output is redirected to the `wolf_net` output file if an error occures print the error to `file_err`.
 
+* **windows_sys_info.py**
+  * [windows_sys_info.py](./windows_sys_info.py):  `gather system and hardware information` also checking for any `schedual taskes` and `services` running in background  
