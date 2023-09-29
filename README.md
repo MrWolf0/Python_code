@@ -21,7 +21,7 @@ as tool of my penetration test
   * [mac_changer.py](./mac_changer.py): `mac_changer` is a script using for change your `mac address` 
 
 * **ip_list.py**
-  * [ip_list.py](./ip_list.py): ip_list is a script used for generate `rondom ips` depends on the `number` you pass and creating a file named as `wolf.txt` in the same dir you can use the generated file as a list in `testing X-Forwared-For header` using an intager values passing through `-s option`.
+  * [ip_list.py](./GenerateRandomIpList.py): ip_list is a script used for generate `rondom ips` depends on the `number` you pass and creating a file named as `wolf.txt` in the same dir you can use the generated file as a list in `testing X-Forwared-For header` using an intager values passing through `-s option`.
 
 * **port_scanner.py**
   * [port_scanner.py](./port_scanner.py): `port_scanner` is a script to test open ports on a host you can test a `single port or a list of ports` pass host/ip and single/list of ports as argument to the script using `options -h` for host and `-p for ports`.
