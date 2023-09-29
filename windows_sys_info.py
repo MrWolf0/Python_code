@@ -10,11 +10,11 @@ def get_system_info(sysinfo_file: Path):
     if os.name == 'nt':
         syntax = ['systeminfo', '&', 'tasklist', '&', 'sc', 'query']
     try:
-        # Setup system info gathering commands child process #
+        # Setup system info gathering commands  process #
         with sysinfo_file.open('a', encoding='utf-8') as system_info:
-            # Setup system info gathering commands child process #
+            # Setup system info gathering commands  process #
             with Popen(syntax, stdout=system_info, stderr=system_info, shell=True) as get_sysinfo:
-                # Execute child process #
+                # Execute  process #
                 get_sysinfo.communicate(timeout=30)
 
     # If error occurs during file operation #

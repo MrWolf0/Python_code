@@ -22,9 +22,9 @@ def get_network_info(export_path: Path, network_file: Path):
         # Open the network information file in write mode and log file in write mode #
         with network_file.open('w', encoding='utf-8') as network_io:
             try:
-                # Setup network info gathering commands child process #
+                # Setup network info gathering commands  process #
                 with Popen(syntax, stdout=network_io, stderr=network_io, shell=True) as commands:
-                    # Execute child process #
+                    # Execute  process #
                     commands.communicate(timeout=60)
 
             # If execution timeout occurred #
