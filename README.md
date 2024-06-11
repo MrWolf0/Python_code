@@ -12,6 +12,8 @@ as tool of my penetration test
 | `loginBruteForce.py`            | 
 | `windows_network_info.py`       | 
 | `windows_sys_info.py`           | 
+## Exploit :heavy_check_mark:
+* [Web_Pentesting_exploit](./Web_Pentesting_exploit): Folder of solving some labs on porstswegger.
 
 ## scripts :page_with_curl:
 
